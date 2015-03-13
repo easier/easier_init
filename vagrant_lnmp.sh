@@ -19,6 +19,10 @@ sudo apt-get install zsh -y
 sudo apt-get install lftp -y
 sudo ln -s `which ack-grep` /bin/ack
 
+#Config git
+git config --global github.user easier
+git config --global github.email fysian@gmail.com
+
 #Config custome vim
 git clone https://github.com/easier/dotvim.git
 mv dotvim .vim
@@ -30,6 +34,7 @@ curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | 
 #Setup npm tools
 wget https://api.sinas3.com/v1/SAE_lnmp/soft/lnmp1.1-full.tar.gz --no-check-certificate
 unzip lnmp1.1-full.tar.gz
+
 
 
 echo "---------------------------------------------------------------------------"

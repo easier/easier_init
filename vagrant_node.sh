@@ -19,6 +19,10 @@ sudo apt-get install zsh -y
 sudo apt-get install lftp -y
 sudo ln -s `which ack-grep` /bin/ack
 
+#Config git
+git config --global github.user easier
+git config --global github.email fysian@gmail.com
+
 #Config custome vim
 git clone https://github.com/easier/dotvim.git
 mv dotvim .vim
@@ -30,6 +34,7 @@ curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | 
 #Setup npm tools
 git clone https://github.com/creationix/nvm.git ~/.nvm
 source ~/.nvm/nvm.sh
+
 
 echo "---------------------------------------------------------------------------"
 echo "Done!"
